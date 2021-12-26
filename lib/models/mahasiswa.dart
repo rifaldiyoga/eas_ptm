@@ -11,7 +11,7 @@ class Mahasiswa {
   String prodi;
   String fakultas;
   int ipk;
-  int dosen_wali;
+  String dosen_wali;
   String? foto;
 
   Mahasiswa({
@@ -56,7 +56,7 @@ class Mahasiswa {
       "prodi": prodi,
       "fakultas": fakultas,
       "ipk": ipk.toString(),
-      "dosen_wali": dosen_wali.toString(),
+      "dosen_wali": dosen_wali,
     };
 
     if (foto != null) data['foto'] = foto!;

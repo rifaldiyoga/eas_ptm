@@ -223,7 +223,7 @@ class _MahasiswaFormPageState extends State<MahasiswaFormPage> {
                 prodi: prodi,
                 fakultas: fakultas,
                 ipk: int.parse(_ipkController.text),
-                dosen_wali: int.parse(_doswalController.text),
+                dosen_wali: _doswalController.text,
                 foto: _fotoController.text,
               );
 
